@@ -1,0 +1,12 @@
+.box {
+  width: 150px;
+  height: 109px;
+}
+
+.red-box {
+  background-color: black;
+}
+
+.blue-box {
+  background-color: purple;
+}
