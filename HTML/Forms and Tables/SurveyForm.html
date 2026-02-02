@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Thiago's Survey Form</h1>
+        <p id="description">This is a form about Games!</p>
+    </header>
+
+    <form action="" id="survey-form">
+        <label id="name-label" for="name">Full Name (Required):</label>
+        <input id="name" type="text" required placeholder="Thiago B" /><br>
+
+        <label id="email-label" for="email">Email (Required)</label>
+        <input id="email" type="email" required placeholder="thiago@email.com" /><br>
+
+        <label id="number-label" for="number">Age (Optional)</label>
+        <input id="number" type="number" min="16" max="125" placeholder="32" /><br>
+
+        <label id="dropdown-label" for="dropdown">Favorite Gender</label>
+        <select id="dropdown">
+            <option value="moba">MOBA</option>
+            <option value="rpg">RPG</option>
+            <option value="fps">FPS</option>
+            <option value="mobile">Mobile</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Do you play averyday?</legend>
+            <label id="yes-option-label" for="yes-option">Yes</label>
+            <input id="yes-option" type="radio" name="play-day" value="yes">
+
+            <label id="no-option-label" for="no-option">No</label>
+            <input id="no-option" type="radio" name="play-day" value="no">
+        </fieldset>
+
+        <fieldset>
+            <legend>What make you more angry when playing?</legend>
+
+            <label id="lag-label" for="lag">Lag</label>
+                <input type="checkbox" id="lag" name="lag" value="lag" />
+
+                <label id="died-label" for="died">Died</label>
+                    <input type="checkbox" id="died" name="died" value="died" />
+
+                    <label id="noob-label" for="noob">Noob</label>
+                        <input type="checkbox" id="noob" name="noob" value="noob" />
+        </fieldset>
+
+        <label id="comments-label" for="comments">Some Comments?</label>
+        <textarea cols="20" rows="5" name="comments" id="comments"></textarea>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
