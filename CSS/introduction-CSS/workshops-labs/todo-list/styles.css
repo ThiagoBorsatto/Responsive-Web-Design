@@ -1,0 +1,28 @@
+ul {
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rebeccapurple;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:focus {
+    color: violet;
+    outline: auto;
+}
+
+a:active {
+    color: gray;
+}
