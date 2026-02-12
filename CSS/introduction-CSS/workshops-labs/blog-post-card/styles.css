@@ -1,0 +1,50 @@
+body {
+    background-color: lightgray;
+}
+
+.blog-post-card {
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+}
+
+.post-img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 5px solid black;
+}
+
+.post-content {
+    padding: 5px;
+}
+
+.post-title {
+    color: black;
+    margin: 5px;
+}
+
+.post-excerpt {
+    color: black;
+    margin: 5px;
+}
+
+.read-more {
+    color: black;
+    background-color: darkgray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.read-more:hover {
+    background-color: black;
+    color: darkgray;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
