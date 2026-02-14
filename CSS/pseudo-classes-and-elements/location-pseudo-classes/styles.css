@@ -1,0 +1,17 @@
+a:link {
+  color: magenta;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:any-link {
+  color: crimson;
+}
+
+section:target {
+  background-color: green;
+  border: 2px solid green;
+  padding: 10px;
+}

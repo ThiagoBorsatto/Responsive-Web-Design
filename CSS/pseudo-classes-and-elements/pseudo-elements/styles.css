@@ -1,0 +1,64 @@
+.cta1-button {
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta1-button::before {
+  content: "⭐";
+  position: absolute;
+  left: 3px;
+  top: 8px;
+  font-size: 0.75rem;
+}
+
+.cta2-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta2-button::after {
+  content: '➡️';
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+
+.cta3-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta3-button::after {
+  content: "➡️";
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+
+.cta3-button:hover::after {
+  transform: translateX(2px);
+}
+
+p::first-letter {
+  font-size: 4rem;
+}
+
+li::marker {
+  color: crimson;
+  font-size: 1.5em;
+  font-weight: bold;
+}
