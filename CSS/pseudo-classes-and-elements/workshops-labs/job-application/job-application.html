@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Forms</h1>
+        <form>
+            <section>
+                <label for="name">Full Name: </label>
+                <input 
+                    type="text"
+                    id="name" 
+                    name="name" 
+                    placeholder="E.g., Marcello Teixeira" 
+                    required
+                >
+                
+                <label for="email" >Email: </label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="marcelloteixeira@email.com" 
+                    required
+                >
+            </section>
+            
+            <section>
+                <label for="position">Job Position: </label>
+                <select name="job-position" id="position">
+                    <option value="">Select a Option</option>
+                    <option value="web-developer">Web Developer</option>
+                    <option value="data-scientist">Data Scientist</option>
+                    <option value="designer">UI/UX Designer</option>
+                    <option value="devops">DevOps</option>
+                </select>
+            </section>
+            
+            <fieldset class="radio-group">
+                <legend id="radio-btn"> Job Availability </legend>
+            
+                <input 
+                    type="radio" 
+                    id="full-time"
+                    class="radio-group"
+                    name="availability"
+                    value="full-time"
+                    checked
+                >
+                <label for="full-time">Full-Time</label>
+
+                <input 
+                    type="radio" 
+                    id="part-time"
+                    class="radio-group"
+                    name="availability" 
+                    value="part-time"
+                >
+                <label for="part-time">Part-Time</label>
+
+                <input 
+                    type="radio" 
+                    id="internship"
+                    class="radio-group"
+                    name="availability"
+                    value="internship"
+                >
+                   <label for="internship">Internship: </label>
+            </fieldset>
+
+            <label for="message">Extra Information: </label>
+            <textarea name="extra information" id="message" rows="4" cols="50" required minlength="20"></textarea>
+
+            <button type="submit" class="submit-forms-btn">Submit Forms</button>
+        </form>
+    </div>
+</body>
+</html>

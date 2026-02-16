@@ -1,0 +1,102 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px black;  
+}
+
+section, textarea {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+section, fieldset {
+    background-color: lightgrey;
+}
+
+fieldset legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input:not(.radio-group),
+textarea, select {
+  width: 95%;
+  border-radius: 5px;
+  padding: 10px;
+}
+input, label {
+    margin: 5px 0 auto auto;
+}
+.basic-information {
+    display: block;
+}
+
+input:focus, textarea:focus {
+    border-color: lightpink;
+    outline: none;
+    box-shadow: 0 0 5px #4d90fe;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px #4d90fe;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+.radio-group input[type="radio"]:checked {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    box-shadow: 0 1px 15px black;
+    vertical-align: bottom;
+}
+
+input[type="radio"]:checked + label {
+    color: green;
+}
+
+input:first-of-type {
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+  background-color: gray;
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  display: block;
+  margin: auto;
+}
