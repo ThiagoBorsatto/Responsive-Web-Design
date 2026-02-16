@@ -1,0 +1,23 @@
+h1 {
+  color: #FF5733; /* A reddish-orange color */
+}
+p {
+  background-color: #4CAF50; /* A shade of green */
+}
+
+body {
+  background-color: #F0F0F0; /* Light gray background */
+}
+
+button {
+  background-color: #007BFF; /* A shade of blue */
+  color: #FFFFFF; /* White text */
+}
+
+body {
+  background-color: #000;
+}
+
+h2 {
+  color: #FFF; /* White in shorthand */
+}

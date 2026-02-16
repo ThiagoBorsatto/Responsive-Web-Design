@@ -1,0 +1,20 @@
+body {
+  background-color: hsla(0, 0%, 1%, 1.00);
+}
+
+p {
+  color: hsl(120, 100%, 50%);
+}
+
+div.light {
+  background-color: hsl(240, 100%, 80%);
+}
+
+div.dark {
+  background-color: hsl(240, 100%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+div.opacity {
+  background-color: hsla(0, 100%, 50%, 0.5);
+}
