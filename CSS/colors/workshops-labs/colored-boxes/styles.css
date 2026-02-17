@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.color-grid {
+    padding: 10px 0;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0 50px;
+}
+
+.color1 {
+    background-color: #FF0000;
+}
+
+.color2 {
+    background-color: rgb(0,142,14);
+}
+
+.color3 {
+    background-color: blanchedalmond;
+}
+
+.color4 {
+    background-color: hsl(43, 100%, 50%);
+}
+
+.color5 {
+    background-color: #5b5b5b;
+}
