@@ -1,0 +1,10 @@
+In the CSS box model, every element is surrounded by a box. This box consists of four elements: the content area, the padding, the border, and the margin.
+padding: 15px 5px 2px 8px;
+
+border: 5px solid blue;
+
+border-width: 2px 4px 7px 12px;
+border-style: dashed solid solid dashed;
+border-color: blue red green black;
+
+margin: 3px 12px 9px 7px;

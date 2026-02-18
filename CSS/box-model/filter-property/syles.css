@@ -1,0 +1,23 @@
+img {
+  filter: blur(2px);
+}
+
+img {
+  filter: brightness(150%);
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+img {
+  filter: sepia(80%);
+}
+
+img {
+  filter: hue-rotate(90deg);
+}
+
+img {  
+  filter: contrast(150%) brightness(110%) sepia(30%);  
+}
