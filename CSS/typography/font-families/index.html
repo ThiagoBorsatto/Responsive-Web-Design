@@ -1,0 +1,15 @@
+/   at-rule CSS: 
+    @font-face {
+        /* Descriptors */
+    }
+
+    @font-face {
+        font-family: "MyCustomFont"; 
+        src: url("path/to/font.woff2") format("woff2"),
+             url("path/to/font.otf") format("opentype") tech(color-COLRv1),
+             url("path/to/font.woff") format("woff");
+}
+
+<link rel="stylesheet" href="styles.css">
+<p id="arial-font">Example paragraph using Arial font.</p>
+<p>Paragraph not using Arial font.</p>
