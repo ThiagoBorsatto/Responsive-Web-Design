@@ -1,0 +1,54 @@
+body {
+    background-color: #0096FF;
+    padding: 1px;
+    text-align: center;
+}
+
+h1 {
+    color: #F0FFFF;
+}
+
+#playing-cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #F0FFFF;
+    width: 50%;
+    min-width: 500px;
+    height: 50%;
+    min-height: 300px;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.left {
+    align-self: flex-start;
+    font-size: 1.5rem;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 2.5rem;
+}
+
+.right {
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
