@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+#email {
+    padding: 50px;
+    margin: 50px auto 0 auto;
+    width: 500px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+#confidential, #top-secret {
+    display: inline-block;
+    padding: 1px;
+    margin-left: 20px;
+    border: 2px solid #f00;
+    transform: rotate(-20deg);
+    color: #f00;
+}
+
+.blurred {
+    filter: blur(3px);
+}
