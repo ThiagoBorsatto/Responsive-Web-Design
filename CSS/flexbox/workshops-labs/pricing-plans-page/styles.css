@@ -1,0 +1,43 @@
+body {
+    background-color: #FAF0E6;
+    text-align: center;
+}
+
+.pricing-container {
+    height: 60vh;
+    width: 80%;
+    max-width: 600px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 20px;    
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px #000;
+    background-color: #FAF9F6;
+    object-fit: cover;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #FFFDD0;
+    margin: 5px;
+}
+
+.basic-plan {
+    order: 0;
+}
+
+.pro-plan {
+    order: 1;
+    flex-grow: 2;
+}
+
+.premium-plan {
+    order: 2;
+}
