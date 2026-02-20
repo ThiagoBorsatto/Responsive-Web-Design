@@ -1,0 +1,41 @@
+
+.relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.positioned {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: coral;
+}
+
+body {
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  border: solid 1px black;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  width: 500px;
+  background: white;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h2 {
+  position: sticky;
+  top: 30px;
+  left: 30px;
+}
