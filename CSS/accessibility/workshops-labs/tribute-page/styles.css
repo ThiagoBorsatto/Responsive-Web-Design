@@ -1,0 +1,42 @@
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #333333;
+    color: #D4AF37;
+    width: 90vw;
+    margin: 10px auto;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+#title {
+    text-align: center;
+  
+}
+
+figure {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
