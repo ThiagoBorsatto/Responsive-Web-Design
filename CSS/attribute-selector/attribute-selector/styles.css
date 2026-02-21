@@ -1,0 +1,33 @@
+a {
+  display: block;
+}
+
+a[href] {
+  color: blue;
+  text-decoration: underline;
+}
+
+a[title] {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[href][title] {
+  display:block;
+  color: green;
+}
+
+a[class~="primary"] {
+  color: red;
+  font-weight: bold;
+}
+
+a[href^="https://"] {
+  color: green;
+  text-decoration: underline;
+}
+
+a[href$=".com"] {
+  color: darkgreen;
+  text-decoration: underline dotted;
+}

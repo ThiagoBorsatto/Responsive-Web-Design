@@ -1,0 +1,8 @@
+ol[type="A"] {
+  color: purple;
+  font-weight: bold;
+}
+
+ol[type="i"] {
+  color: green;
+}

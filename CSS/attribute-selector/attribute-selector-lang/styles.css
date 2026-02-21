@@ -1,0 +1,7 @@
+p[lang="en"] {
+  font-style: italic;
+}
+
+p[data-lang="fr"] {
+  color: blue;
+}
