@@ -1,0 +1,50 @@
+
+@media(min-width: 768px) {
+    #main-doc {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    
+    #navbar {
+        background-color: #fa9549;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 20%;
+        max-width: 100px;
+        float: left;
+        padding: 0.5em;
+        margin: 0;
+        border: 2px solid #000;
+        overflow-y: none;
+    }
+
+    #navbar header {
+        color: #5f668c;
+        font-size: 1.3em;
+        padding: 5px 3px 10px 3px;
+        border-bottom: 3px solid #5f668c;
+        margin: 1px;
+    }
+
+    #navbar a{
+        text-decoration: none;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    #main-section {
+        width: 100%;
+        position: fixed;
+        overflow: scroll;
+    }
+
+    #Satisfactory header {
+        font-size: 2em;
+    }
+}
