@@ -1,0 +1,11 @@
+Extra small device: under 576px.
+
+Small device: more than or equal to 576px.
+
+Medium device: more than or equal to 768px.
+
+Large device: more than or equal to 992px.
+
+Extra large device: more than or equal to 1200px.
+
+Extra extra large device: more than or equal to 1400px.

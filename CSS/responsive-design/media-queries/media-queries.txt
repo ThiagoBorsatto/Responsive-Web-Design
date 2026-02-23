@@ -1,0 +1,35 @@
+@media mediatype and (feature: value) {
+  /* CSS rules go here */
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for screens at least 768px wide */
+}
+
+@media screen and (aspect-ratio: 16/9) {
+  /* Styles for screens with a 16:9 aspect ratio */
+}
+
+@media screen and (orientation: landscape) {
+  /* Styles for landscape orientation */
+}
+
+@media screen and (min-resolution: 300dpi) {
+  /* Styles for high-resolution screens */
+}
+
+@media (hover: hover) {
+  /* Styles for devices that support hover */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Styles for dark mode */
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  /* Styles for landscape screens at least 768px wide */
+}
+
+@media screen and (min-width: 768px), print {
+  /* Styles for screens at least 768px wide OR for print */
+}
