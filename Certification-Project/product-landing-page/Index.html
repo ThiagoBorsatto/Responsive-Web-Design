@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+    <main class="grid-container">
+        <header id="header" class="header">
+            <img id="header-img" class="header-img" src="https://git-scm.com/images/logos/logomark-white@2x.png" alt="git-logo">
+            <nav id="nav-bar" class="nav-bar">
+                <a href="#form" class="nav-link">News</a>
+                <a href="#video" class="nav-link">GitHubVideo</a>
+                <a href="#footer" class="nav-link">Footer</a>
+            </nav>
+        </header>
+        <h1 id="title" class="title">Understand Git and GitHub</h1>
+        <iframe 
+            id="video"
+            class="video"
+            width="700" 
+            height="500" 
+            src="https://www.youtube.com/embed/r8jQ9hVA2qs" 
+            title="A brief introduction to Git for beginners | GitHub" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+        <form action="https://www.freecodecamp.org/email-submit" id="form" class="form">
+            <h2>Register for more news</h2>
+            <label for="Name">Name: 
+                <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Ex.: João da Silva" 
+                    required>
+            </label>
+            <label for="email">Email: 
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Ex.: myemail@email.com" 
+                    required>
+            </label>
+            <input type="submit" id="submit" value="Submit" class="submit">
+        </form>
+    </main>
+    <footer id="footer" class="footer">
+            <address id="adderss" class="address">
+                2025 - Grid Test
+            </address>
+        </footer>
+</body>
+
+</html>

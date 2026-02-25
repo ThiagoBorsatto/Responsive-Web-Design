@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-widgth: 500px) {
+    .grid-container {
+        background-color: #8E7DBE;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'header header header'
+        'title title title'
+        'video video video'
+        'form form form'
+        'footer footer footer'
+    ;
+    background-color: #F7CFD8;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1.4em;
+    background-color: #F4F8D3;
+    padding: 1.3rem;
+    grid-area: header;
+    grid-row: 1;       
+    position: sticky;
+    top: 0;           
+    box-shadow: 1px 1px 5px;
+}
+
+.header-img {
+    max-width: 50px;
+    height: auto;
+}
+
+.nav-bar {
+    height: 2.5em;
+    font-size: 1.1em;
+    text-shadow: 1px 1px #8E7DBE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:  0 0.5em;
+    background-color: #A6D6D6;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    margin: 0 0.3em;
+    padding-top: 0.5em;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.title {
+    height: 50px;
+    grid-area: title;
+    text-align: center;
+    padding: 0.3em 0;
+    background-color: #A6D6D6;
+    color: #fff;
+    box-shadow: 1px 1px 5px;
+    text-shadow: 2px 2px #8E7DBE;
+}
+
+.video {
+    grid-area: video;
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 80%;
+    box-shadow: 1px 1px 5px;
+}
+
+.form {
+    grid-area: form;
+    background-color: #A6D6D6;
+    width: 30%;
+    justify-self: center;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+.form  h2{
+    text-align: center;
+    background-color: #8E7DBE;
+    color: #fff;
+    padding: 0.2em;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+} 
+
+.form label {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0.5em;
+    background-color: #F4F8D3;
+    color: #8E7DBE;
+    box-shadow: 1px 1px 5px;
+    display: block;
+    border-radius: 15px;
+}
+
+.form input {
+    appearance: none;
+    padding: 0.3em;
+    border-radius: 10px;
+    background-color: #A6D6D6;
+}
+
+.form .submit {
+    background-color: #8E7DBE;
+    color: #fff;
+    padding: 0.5em 1.3em;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+.footer {
+    background-color: #F4F8D3;
+    padding: 1.3rem;
+    grid-area: footer;       
+    position: sticky;
+    bottom: 0;
+    box-shadow: 1px 1px 5px;        
+}
+
+.address {
+    margin: 0 0.3em;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #8E7DBE;
+}
