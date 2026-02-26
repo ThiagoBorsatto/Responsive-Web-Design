@@ -1,0 +1,65 @@
+@media (max-width: 500px) {
+    body {
+        background-color: #EAEFEF;
+        margin: 0;
+    }
+}
+body {
+    margin: 0;
+    background-color: #EAEFEF;
+}
+
+.portfolio-container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        'navbar navbar navbar'
+        'welcome-section welcome-section contact'
+        'project-section project-section project-section'
+        'project-section project-section project-section'
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr 1fr 1fr;
+}
+
+.welcome-section {
+    height: 100vh;
+    width: 100%;
+    grid-area: welcome-section;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #BFC9D1;
+}
+
+.navbar {
+    background-color: #FF9B51;
+    grid-area: nav-bar;
+    position: sticky;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 1.2em;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #EAEFEF;
+    background-color: #25343F;
+    padding: 0.5em;
+    border-radius: 20%;
+    margin: 0 0.5em;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.project-section {
+    grid-area: project-section;
+}
