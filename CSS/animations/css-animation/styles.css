@@ -1,0 +1,42 @@
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sliding-element {
+  animation: slide-in 2s ease-out infinite;
+}
+
+.complex-animation {
+  animation-name: color-change;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.button {
+  background-color: blue;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: red;
+}
